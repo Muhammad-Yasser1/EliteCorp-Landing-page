@@ -1,0 +1,44 @@
+.choose {
+    margin-bottom: 100px;
+    h2 {
+        padding: 70px 0 30px 40px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    p {
+        line-height: 1.8;
+        color: #ccc;
+        font-weight: 450;
+    }
+    .row {
+        margin: auto 0;
+        .info {
+            p:first-of-type {
+                padding: 0 0 20px 40px;
+            }
+            p:last-of-type {
+                padding: 0 0 30px 40px;
+                @media (max-width: 992px) {
+                    display: none;
+                }
+            }
+            &:first-child img {
+                max-width: 100%;
+                min-height: 75%;
+            }
+            &:last-child {
+                background: #045474;
+                color: #fff;
+            }
+        }
+    }
+    button {
+        color: #fff;
+        background: #ee1c25;
+        border: none;
+        padding: 15px 30px;
+        margin: 0 0 70px 40px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+}

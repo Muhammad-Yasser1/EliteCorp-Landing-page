@@ -1,0 +1,31 @@
+.copyright {
+    border-top: 1px solid #ddd;
+    padding: 20px 20px 100px 20px;
+    @media (max-width: 768px) {
+        .copyright {
+            padding: 20px 20px 280px 20px;
+        }
+    }
+    .left {
+        color: #aaa;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+    .right a {
+        display: inline-block;
+        margin-left: 20px;
+        color: #000;
+        .f:hover {
+            color: #4267b2;
+        }
+        .t:hover {
+            color: #2aa9e0;
+        }
+        .y:hover {
+            color: #cc181e;
+        }
+        .g:hover {
+            color: #dd4a40;
+        }
+    }
+}

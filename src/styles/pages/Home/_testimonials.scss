@@ -1,0 +1,40 @@
+.testimonials {
+    background: url("../imgs/testimonials/testimonail.jpg");
+    position: relative;
+    background-size: cover;
+    height: 500px;
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .carousel {
+        .carousel-inner {
+            height: 100%;
+        }
+        .carousel-item img {
+            border-radius: 100%;
+            width: 150px;
+            height: 150px;
+        }
+        .carousel-item {
+            height: 100%;
+        }
+        height: 100%;
+        position: relative;
+        z-index: 4;
+        .carousel-caption {
+            top: 15%;
+        }
+        .carousel-caption h3 {
+            margin-bottom: 1px;
+        }
+        .carousel-caption p {
+            margin-top: 15px;
+        }
+    }
+}

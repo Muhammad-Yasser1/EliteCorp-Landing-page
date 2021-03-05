@@ -1,0 +1,46 @@
+/*start latestposs*/
+.latest-posts {
+    margin: 80px 50px;
+    h2 {
+        font-size: 50px;
+        font-weight: bold;
+        color: #444;
+    }
+    > p {
+        width: 70%;
+        color: #888;
+        line-height: 1.8;
+        margin: 10px auto 30px;
+    }
+    .card {
+        padding-left: 10px;
+        border: none;
+        margin-bottom: 20px;
+        .card-body {
+            padding: 0;
+        }
+        .card-title {
+            color: #045474;
+        }
+        .card-subtitle {
+            color: #999;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .card-text {
+            color: #888;
+            margin: 10px 0 15px;
+        }
+        .card-img-top {
+            width: 100%;
+            margin: 0;
+        }
+        .card-link {
+            color: #ee1c25;
+            font-weight: bold;
+        }
+        .card-link:hover {
+            text-decoration: underline;
+        }
+    }
+}

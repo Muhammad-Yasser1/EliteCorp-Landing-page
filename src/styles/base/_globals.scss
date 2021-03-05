@@ -1,0 +1,27 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden; // to hide horizontal scroll until the animation gets done
+}
+
+.row:not(.upper-bar .row, footer .row) {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+section:not(.pricing, .choose, .stats, .testimonials) {
+    margin-top: 100px;
+    color: #999;
+    margin-bottom: 100px;
+}
+
+.fa-4x {
+    margin-bottom: 10px;
+    color: #ee1c25;
+    padding: 10px;
+    display: inline-block;
+}

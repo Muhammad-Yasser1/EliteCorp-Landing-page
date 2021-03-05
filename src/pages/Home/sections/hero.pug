@@ -1,0 +1,21 @@
+#hero-carousel.carousel.slide.wow.fadeIn(data-wow-duration='1s' data-wow-delay='.3s' data-ride='carousel')
+	.carousel-inner
+		.carousel-item.active
+			img.d-block.w-100(src='https://nugget-design.com/wp-content/uploads/2016/12/Go-Travel_Chislhrust_Interior-Design-By-Nugget-Design-04-1920x1280.jpg' alt='First slide')
+		.carousel-item
+			img.d-block.w-100(src='imgs/desktop-2-1920x1280.jpg' alt='Second slide')
+		.carousel-item
+			img.d-block.w-100(src='imgs/phone.jpeg' alt='Third slide')
+		.overlay
+			.container
+				h1.head-text
+					| we&apos;re an independent
+					br
+					|  design and 
+					span development
+					br
+					|  agency.
+	ol.carousel-indicators
+		li.active(data-target='#hero-carousel' data-slide-to='0')
+		li(data-target='#hero-carousel' data-slide-to='1')
+		li(data-target='#hero-carousel' data-slide-to='2')

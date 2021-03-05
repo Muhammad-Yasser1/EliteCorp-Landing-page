@@ -1,0 +1,64 @@
+@import "../abstracts/variables";
+
+footer {
+    margin: 100px auto;
+    overflow-x: hidden;
+    h4 {
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: #045474;
+        padding-bottom: 20px;
+    }
+    .left {
+        h2 {
+            padding-bottom: 25px;
+        }
+        p {
+            color: #666;
+            line-height: 1.7;
+        }
+        & > span {
+            color: #045474;
+            padding-top: 20px;
+        }
+        span {
+            span {
+                margin-left: 10px;
+                font-weight: 500;
+            }
+            .fa-chevron-circle-right {
+                font-size: 13px;
+            }
+        }
+    }
+    .center {
+        margin-top: 15px;
+        ul {
+            li {
+                padding: 5px;
+                font-weight: 450;
+                .fa-chevron-right {
+                    color: #045474;
+                    font-size: 12px;
+                }
+                a {
+                    color: #045474;
+                    transition: 0.2s;
+                    text-decoration: none;
+                    &:hover {
+                        color: $red;
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .right {
+        margin-top: 15px;
+        a {
+            color: #045474;
+            text-decoration: none;
+            font-weight: 400;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@import "./vendors/bootstrap.min";
+@import "./vendors/animate";
+
+@import "./abstracts/variables";
+
+@import "./base/globals";
+@import "./base/typography";
+
+@import "./components/button";
+@import "./components/carousel";
+@import "./components/goup-btn";
+
+@import "./layouts/upperbar";
+@import "./layouts/navbar";
+@import "./layouts/hero";
+@import "./layouts/footer";
+@import "./layouts/copyright-bar";
+
+@import "./pages/Home/contact-us";
+@import "./pages/Home/featured-work";
+@import "./pages/Home/latest-posts";
+@import "./pages/Home/overview";
+@import "./pages/Home/pricing";
+@import "./pages/Home/stats";
+@import "./pages/Home/testimonials";
+@import "./pages/Home/why-us";

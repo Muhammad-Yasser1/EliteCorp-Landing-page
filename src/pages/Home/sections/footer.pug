@@ -1,0 +1,39 @@
+footer.footer
+	.container
+		.row
+			.col-md-5.left.wow.bounceInLeft(data-wow-offset='100' data-wow-duration='1.5s')
+				h2
+					span.elite Elite
+					span.corp Corp
+				p
+					| Lorem Ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+					| for previewing layouts and visual mockups
+				span
+					i.fas.fa-chevron-circle-right
+					span Read more
+				br
+				br
+			.col-md-7
+				.row
+					.col-md-8.center.wow.bounceInUp(data-wow-offset='100' data-wow-duration='1.5s')
+						.row
+							h4.col-md-12 Helpful Links
+							- const helpfulLinksList1 = ['About', 'Portfolio', 'Team', 'Pricing', 'Privacy Policy']
+							ul.col-6.list-unstyled
+								each link in helpfulLinksList1
+									li
+										i.fas.fa-chevron-right 
+										a(href="#")= ' ' + link
+							- const helpfulLinksList2 = ['FAQ', 'Blog', 'How It Works', 'Benefits', 'Contact']
+							ul.col-6.list-unstyled
+								each link in helpfulLinksList2
+									li
+										i.fas.fa-chevron-right 
+										a(href="#")= ' ' + link
+					.col-md-4.right.wow.bounceInRight(data-wow-offset='100' data-wow-duration='1.5s')
+						h4 Contact Us
+						p Adress: Tanta,Egypt
+						p Phone: 01153898874
+						p
+							| Email: 
+							a(href='mailto:mohyas364@gmail.com?subject=contact') mohyas364@gmail.com

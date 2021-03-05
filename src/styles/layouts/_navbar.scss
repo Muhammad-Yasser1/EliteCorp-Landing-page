@@ -1,0 +1,30 @@
+/*start navbar*/
+.navbar {
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+.elite {
+    font-weight: 500;
+    font-size: 45px;
+    color: #045474;
+}
+.corp {
+    font-weight: 300;
+    font-size: 45px;
+    color: #ee1c25;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #045474;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: #ee1c25;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ee1c25;
+} /*end navbar*/

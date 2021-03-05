@@ -1,0 +1,38 @@
+section.testimonials.wow.fadeIn(data-wow-duration='1.5s' data-wow-offset='300' style='margin-top:20px')
+	.overlay
+	#testimonials.carousel.slide(data-ride='carousel')
+		.carousel-inner
+			.carousel-item.active
+				.carousel-caption
+					img(alt='pic' src='imgs/testimonials/cappic.png')
+					h3 John Doe
+					span Company Manager
+					p
+						| Lorem Ipsum is placeholder text commonly used in the graphic, print, and publishing
+						| industries for previewing layouts and visual mockups
+			.carousel-item
+				.carousel-caption
+					img(alt='pic' src='imgs/testimonials/cappic.png')
+					h3 John Doe
+					span Company Manager
+					p
+						| Lorem Ipsum is placeholder text commonly used in the graphic, print, and publishing
+						| industries for previewing layouts and visual mockups
+			.carousel-item
+				.carousel-caption
+					img(alt='pic' src='imgs/testimonials/cappic.png')
+					h3 John Doe
+					span Company Manager
+					p
+						| Lorem Ipsum is placeholder text commonly used in the graphic, print, and publishing
+						| industries for previewing layouts and visual mockups
+		a.carousel-control-prev(href='#testimonials' role='button' data-slide='prev')
+			span.carousel-control-prev-icon(aria-hidden='true')
+			span.sr-only Previous
+		a.carousel-control-next(href='#testimonials' role='button' data-slide='next')
+			span.carousel-control-next-icon(aria-hidden='true')
+			span.sr-only Next
+		ol.carousel-indicators
+			li.active(data-target='#testimonials' data-slide-to='0')
+			li(data-target='#testimonials' data-slide-to='1')
+			li(data-target='#testimonials' data-slide-to='2')

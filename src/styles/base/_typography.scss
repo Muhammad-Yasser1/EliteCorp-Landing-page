@@ -1,0 +1,23 @@
+h1 {
+    text-transform: capitalize;
+    font-size: 3rem;
+    margin-top: 8%;
+    color: #fff;
+    line-height: 1.4;
+    @media (max-width: 768px) {
+        font-size: 2rem;
+        margin-top: 8%;
+    }
+    @media (max-width: 576px) {
+        font-size: 1.6rem;
+    }
+    span {
+        background: #ee1c25;
+        padding: 0px 5px 5px 0px;
+    }
+}
+h4 {
+    color: #045474;
+    font-size: 18px;
+    margin: 18px 0 5px;
+}
