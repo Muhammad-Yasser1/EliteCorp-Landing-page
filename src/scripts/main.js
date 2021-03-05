@@ -14,13 +14,15 @@ $(function () {
     new WOW().init();
 
     // config and init niceScroll plugin
-    $("html").niceScroll({
-        cursorcolor: "#ee1c25",
-        cursorwidth: "10px",
-        cursorborder: "none",
-        horizrailenabled: false,
-        zindex: 10,
-    });
+    if (window.innerWidth > 1024) {
+        $("html").niceScroll({
+            cursorcolor: "#ee1c25",
+            cursorwidth: "10px",
+            cursorborder: "none",
+            horizrailenabled: false,
+            zindex: 10,
+        });
+    }
 
     // show the return to top button when we scroll down a little
     $(window).scroll(function () {
