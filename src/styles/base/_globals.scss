@@ -4,10 +4,10 @@ body {
     overflow-x: hidden; // to hide horizontal scroll until the animation gets done
 }
 
-.row:not(.upper-bar .row, footer .row) {
-    margin-left: 0;
-    margin-right: 0;
-}
+// .row:not(.upper-bar .row, footer .row) {
+//     margin-left: 0;
+//     margin-right: 0;
+// }
 
 button {
     cursor: pointer;
@@ -15,7 +15,7 @@ button {
 
 section:not(.pricing, .choose, .stats, .testimonials) {
     margin-top: 100px;
-    color: #999;
+    color: #212529;
     margin-bottom: 100px;
 }
 

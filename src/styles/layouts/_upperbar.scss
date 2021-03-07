@@ -9,9 +9,9 @@
         margin-left: 10px;
         cursor: pointer;
         transition: 0.2s;
-        @media (max-width: 420px), (min-width: 768px) and (max-width: 992px) {
-            margin-right: 25px;
-        }
+        // @media (max-width: 420px), (min-width: 768px) and (max-width: 992px) {
+        //     margin-right: 25px;
+        // }
         &:hover {
             background-color: #ee1c25;
         }

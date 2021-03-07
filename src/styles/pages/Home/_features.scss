@@ -1,0 +1,11 @@
+.features {
+    &__item {
+        margin-bottom: $between-big-items-vertical;
+        @media screen and (max-width: 768px) {
+            margin: $between-big-items-vertical;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+}

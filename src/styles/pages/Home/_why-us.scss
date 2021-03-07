@@ -1,5 +1,9 @@
 .choose {
     margin-bottom: 100px;
+    .info:first-of-type {
+        min-height: 350px;
+        display: flex;
+    }
     h2 {
         padding: 70px 0 30px 40px;
         letter-spacing: 2px;
@@ -16,11 +20,11 @@
             p:first-of-type {
                 padding: 0 0 20px 40px;
             }
+            @media screen and (max-width: 768px) {
+                padding-left: 0;
+            }
             p:last-of-type {
                 padding: 0 0 30px 40px;
-                @media (max-width: 992px) {
-                    display: none;
-                }
             }
             &:first-child img {
                 max-width: 100%;

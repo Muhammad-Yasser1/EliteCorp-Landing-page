@@ -6,14 +6,15 @@
         color: #444;
     }
     p {
-        width: 80%;
-        color: #888;
+        // width: 80%;
+        // color: #888;
         line-height: 1.8;
         margin: 20px auto;
     }
     ul {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         li {
             color: #045474;
             border: 1px solid #0454744d;
@@ -39,11 +40,8 @@
     }
     .imgs {
         display: flex;
-        .imgs .row div {
+        .row div {
             padding: 0;
-            -webikit-transition: all 0.4s ease-in-out;
-            -moz-transition: all 0.4s ease-in-out;
-            -o-transition: all 0.4s ease-in-out;
             transition: all 0.4s ease-in-out;
             img {
                 width: 100%;

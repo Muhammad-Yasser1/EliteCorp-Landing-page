@@ -2,7 +2,9 @@
     color: #045474;
     margin: 100px auto;
     .stat {
-        margin-bottom: 40px;
+        @media screen and (max-width: 992px) {
+            margin-bottom: 40px;
+        }
     }
     span {
         display: block;

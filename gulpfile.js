@@ -57,5 +57,5 @@ gulp.task("watch", () => {
     gulp.watch("src/pages/**/*.pug", ["html"]);
     gulp.watch("src/styles/**/*.scss", ["styles"]);
     gulp.watch("src/scripts/*.js", ["scripts"]);
-    gulp.watch("build/**/*.*", ["compress"]);
+    // gulp.watch("build/**/*.*", ["compress"]);
 });
